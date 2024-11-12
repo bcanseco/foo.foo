@@ -17,21 +17,37 @@
     <link rel="icon" href="favicon.ico">
     <title>foo.foo</title>
     <style>
-      html {
+      html, body {
         font-family: sans-serif;
-        font-weight: bold;
-        font-size: 5vw;
         height: 100vh;
         width: 100vw;
         margin: 0px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
         background: radial-gradient(azure, grey);
+      }
+      h1 {
+        font-size: 12vw;
+        margin-bottom: 1vh;
+      }
+      p {
+        font-size: 3vw;
+        font-weight: bold;
+        margin-bottom: 1vh;
+      }
+      sub {
+        font-size: 2vw;
+        font-style: italic;
+        color: grey;
       }
     </style>
   </head>
   <body>
-    For inquiries: <a href="mailto:foo@foo.foo" target="_blank" rel="noopener noreferrer" title="Email address">foo@foo.foo</a>
+    <h1>foo.foo</h1>
+    <p><a href="https://www.namecheap.com/market/buynow/foo.foo/" target="_blank">Namecheap</a> | <a href="https://sedo.com/search/details/?domain=foo.foo" target="_blank">Sedo</a> | <a href="https://www.dynadot.com/market/user-listings/foo.foo" target="_blank">Dynadot</a> | <a href="https://www.domains.io/domain/foo.foo" target="_blank">Domains.io</a></p>
+    <sub>Get yourself a cool email address like <code title="This inbox is not monitored.">foo@foo.foo</code></sub>
   </body>
 </html>
